@@ -1,8 +1,10 @@
+import java.util.Properties;
 
-Hello Prashant
-how are you?
+public class checkingPullRequest {
 
-hey team,
-i am good, could you please check the status of the project
-
-Hi Ira and Dhruv
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Properties prop = new Properties();
+		prop.getProperty(null);
+	}
+}
