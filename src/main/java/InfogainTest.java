@@ -16,7 +16,7 @@ public class InfogainTest {
 
 		test();
 		int[] intValue = { '1', '2', '3', '4', '5', '4', '2' };
-		
+
 		List list = Arrays.asList(intValue);
 		for (int i = 0; i < list.size(); i++) {
 			if (list.get(i) != list.get(i + 1)) {
@@ -27,8 +27,6 @@ public class InfogainTest {
 		for (int i = 0; i < list.size(); i++) {
 			System.out.println("list : " + list.get(i));
 		}
-		
-		
 
 		Map<String, String> map = new HashMap<String, String>();
 		Set<Entry<String, String>> map1 = map.entrySet();
@@ -40,7 +38,6 @@ public class InfogainTest {
 
 //		List<Integer> list = new ArrayList<Integer>();
 
-		
 	}
 
 	public static void test() {
@@ -63,5 +60,11 @@ public class InfogainTest {
 
 		System.out.println("resultStrr :: " + resultStrr);
 
+	}
+
+	public static void stringPrograms() {
+
+		String str = "madhuri dixit nene";
+		
 	}
 }
